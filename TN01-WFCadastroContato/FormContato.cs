@@ -54,11 +54,6 @@ namespace TN01_WFCadastroContato
                 return;
             }
             //Verifica SobreNome Vazio
-            else if (string.IsNullOrEmpty(txtSobrenome.Text))
-            {
-                Erro("Campo Sobrenome não pode estar Vazio!");
-                return;
-            }
             //Verifica DDD e o Telefone Vazios
             else if (string.IsNullOrEmpty(semMaskTelefone))
             {

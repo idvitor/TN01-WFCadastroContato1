@@ -49,8 +49,9 @@
             lblSenha.AutoSize = true;
             lblSenha.Location = new Point(21, 78);
             lblSenha.Name = "lblSenha";
-            lblSenha.Size = new Size(0, 15);
+            lblSenha.Size = new Size(42, 15);
             lblSenha.TabIndex = 1;
+            lblSenha.Text = "Senha:";
             // 
             // txtLogin
             // 
